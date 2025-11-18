@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review - Woolah</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Woolah</div>
+
+    <!-- Icon Setrep 3 -->
+    <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" 
+        viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+    </svg>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="tentang.html">Tentang Kami</a></li>
+            <li><a href="order.html">order</a></li>
+            <li><a href="produk.html">Produk</a></li>
+            <li><a href="review.html">Review</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Icon Trolley -->
+    <a href="cart.html">
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" 
+            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-width="2" 
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 9m12-9l2 9m-6-9v9"/>
+        </svg>
+    </a>
+
+    <!-- Icon Love -->
+    <a href="wishlist.html">
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" 
+            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-width="2" 
+                d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 
+                4.5 0 116.364 6.364L12 21.364l-7.682-7.682a4.5 
+                4.5 0 010-6.364z"/>
+        </svg>
+    </a>
+</header>
+
+<section>
+    <h2>Review Pelanggan</h2>
+    <p>Beberapa ulasan dari pelanggan setia Woolah.</p>
+</section>
+
+<section class="products">
+
+    <div class="product-card">
+        <h3>Sarah</h3>
+        <p>"Buketnya cantik banget! Lebih bagus dari foto."</p>
+    </div>
+
+    <div class="product-card">
+        <h3>Aulia</h3>
+        <p>"Pengiriman cepat dan aman. Recommended 👍"</p>
+    </div>
+
+    <div class="product-card">
+        <h3>Restu</h3>
+        <p>"Warnanya lucu, teman aku suka banget!"</p>
+    </div>
+
+</section>
+
+<section>
+    <h2>Tulis Review Anda</h2>
+
+    <!-- FORM 1 (wajib) -->
+    <form>
+        <label>Nama:</label>
+        <input type="text" placeholder="Masukkan nama">
+
+        <label>Rating (1-5):</label>
+        <input type="number" min="1" max="5" placeholder="Masukkan rating">
+
+        <label>Review:</label>
+        <textarea rows="4" placeholder="Tulis ulasan Anda..."></textarea>
+
+        <button type="submit">Kirim Review</button>
+    </form>
+</section>
+
+</body>
+</html>

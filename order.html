@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Pemesanan - Woolah</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">Woolah</div>
+    <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="product.html">Produk</a></li>
+        <li><a href="order.html">Pemesanan</a></li>
+    </ul>
+</nav>
+
+<section class="about">
+    <h2>Form Pemesanan Woolah</h2>
+    <p>Isi data berikut untuk melakukan pemesanan buket bunga rajut Woolah.</p>
+</section>
+
+<form action="#" method="post">
+
+    <label>Nama Pembeli</label>
+    <input type="text" placeholder="Nama lengkap Anda" required>
+
+    <label>Nomor WhatsApp</label>
+    <input type="text" placeholder="Nomor WA aktif" required>
+
+    <label>Pilih Produk</label>
+    <select required>
+        <option value="">-- Pilih Produk --</option>
+        <option value="Buket Rajut Mawar">Buket Rajut Mawar</option>
+        <option value="Buket Rajut Tulip">Buket Rajut Tulip</option>
+        <option value="Buket Mini Random">Buket Mini Random</option>
+        <option value="Custom Buket">Custom Buket (Tulis permintaan)</option><br>
+    </select>
+
+    <label>Alamat Lengkap</label>
+    <textarea rows="3" placeholder="Tulis alamat lengkap pengiriman" required></textarea>
+
+    <label>Catatan Tambahan</label>
+    <textarea rows="3" placeholder="Warna, model, kartu ucapan, dll..."></textarea>
+
+    <button type="submit">Kirim Pesanan</button>
+</form>
+
+<footer>
+    &copy; 2025 Woolah Marketplace
+</footer>
+
+</body>
+</html>
